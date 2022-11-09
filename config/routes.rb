@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get '/transactions', to: 'transactions#index'
   get '/transactions/:id', to: 'transactions#show'
   post '/transactions', to: 'transactions#create'
+  put '/transactions/:id', to: 'transactions#update'
 end
